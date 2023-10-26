@@ -1,0 +1,28 @@
+.sidebar {
+  position: fixed;
+  width: 300px;
+  border-right: 2px solid;
+  height: 100vh;
+  top: 0;
+}
+
+.sidebar-container {
+  padding: 1rem 2rem;
+  line-height: 3;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 1.2rem;
+}
+
+.navlinks {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,50 @@
+.dashboard {
+  width: 70vw;
+}
+
+.dashboard-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.dashboard-content {
+  border: 1px solid grey;
+  height: 150px;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: whitesmoke;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 2px 3px 8px;
+}
+
+.count {
+  font-size: 32px;
+}
+
+.dashboard-content p {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  gap: 5px;
+  color: #605959;
+}
+
+.red {
+  color: #ff3939;
+}
+
+.blue {
+  color: #528da0;
+}
+
+.green {
+  color: #49d349;
+}
+
+.yellow {
+  color: #cdcd13;
+}
